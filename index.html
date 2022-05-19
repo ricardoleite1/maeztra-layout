@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maeztra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/build/styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <span>Acompanhe as melhores promoções disponíveis aqui na Maeztra.</span>
+    </div>
+    <div class="header-middle">
+      <input type="checkbox" id="checkbox-menu">
+      <label for="checkbox-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <img src="https://i.ibb.co/YpN7tYY/logo-maeztra-novo.png" alt="Logo Maeztra">
+
+      <div class="mobile-search">
+        <img src="/assets/search.png" alt="Busca">
+        <img src="/assets/casket.png" alt="Carrinho">
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="O Que Você Busca?">
+        <button>Buscar</button>
+      </div>
+      <div class="actions">
+        <p><img src="/assets/user.png"/>Minha Conta</p>
+        <p><img src="/assets/heart.png"/>Minha Conta</p>
+        <p class="cart"><img src="/assets/casket.png"/>Meu Carrinho</p>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <nav>
+        <li class="news"><img src="https://i.ibb.co/tX2Ncwz/novidades.png"/>Novidades</li>
+        <li>Vestidos</li>
+        <li>Roupas</li>
+        <li>Sapatos</li>
+        <li>Lingerie</li>
+        <li>Acessórios</li>
+        <li>OUTLET</li>
+      </nav>
+    </div>
+  </header>
+
+  <section class="main-banner">
+    <main class="slider-container">
+      <div id="mainSlider">
+          <picture>
+            <source media="(min-width:900px)" srcset="/assets/banner.png"/>
+            <source media="(max-width:600px)" srcset="/assets/banner-mobile.png"/>
+            <img src="/assets/banner.png"/>
+          </picture>
+          <picture>
+            <source media="(min-width:900px)" srcset="/assets/banner.png"/>
+            <source media="(max-width:600px)" srcset="/assets/banner-mobile.png"/>
+            <img src="/assets/banner.png"/>
+          </picture>
+      </div>
+      <img src="/assets/arrow-left.png" class="js-carousel--main-prev" aria-label="Anterior" />
+      <img src="/assets/arrow-right.png" class="js-carousel--main-next" aria-label="Próximo" />
+    </main>
+  </section>
+
+  <section class="benefits">
+    <h2>Por que comprar na Maeztra?</h2>
+    <div>
+      <div class="cards js-carousel--benefits">
+        <div class="card-item">
+          <img src="/assets/tipbar05.png" alt="Globo mundial">
+          <div>
+            <strong>Produtos importados</strong>
+            <span>Produto de Alta Qualidade</span>
+          </div>
+        </div>
+        
+        <div class="card-item">
+          <img src="/assets/tipbar04.png" alt="Globo mundial">
+          <div>
+            <strong>Estoque no Brasil</strong>
+            <span>Produtos mais perto de você!</span>
+          </div>
+        </div>
+  
+        <div class="card-item">
+          <img src="/assets/tipbar03.png" alt="Globo mundial">
+          <div>
+            <strong>Trocas Garantidas</strong>
+            <span>Trocas em até 48 horas, veja as regras</span>
+          </div>
+        </div>
+  
+        <div class="card-item">
+          <img src="/assets/tipbar02.png" alt="Globo mundial">
+          <div>
+            <strong>Ganhe 5% off</strong>
+            <span>Pagando á vista no Cartão</span>
+          </div>
+        </div>
+  
+        <div class="card-item">
+          <img src="/assets/tipbar01.png" alt="Globo mundial">
+          <div>
+            <strong>Frete Grátis</strong>
+            <span>Em compras acima de R$ 499,00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="brands">
+    <h2>Marcas Parceiras</h2>
+    <div>
+      <img src="/assets/comma.png" alt="Logo comma,">
+      <img src="/assets/melissa.png" alt="Logo Melissa">
+      <img src="/assets/forever-21.png" alt="Logo Forever 21">
+      <img src="/assets/zara.png" alt="Logo Zara">
+      <img src="/assets/ant-taylor.png" alt="Logo Ann Taylor">
+    </div>
+  </section>
+
+  <main class="shelves">
+    <h2>As Mais Pedidas</h2>
+    
+    <div class="shelves-slider js-carousel--shelves">
+      <div class="shelf">
+        <img src="/assets/placeholder.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="bege"></button>
+          <button class="salmao"></button>
+          <button class="azul"></button>
+          <button class="roxo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+  
+      <div class="shelf">
+        <img src="/assets/placeholder-2.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="preto"></button>
+          <button class="vermelho"></button>
+          <button class="quartzo"></button>
+          <button class="gelo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+  
+      <div class="shelf">
+        <img src="/assets/placeholder.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="bege"></button>
+          <button class="salmao"></button>
+          <button class="azul"></button>
+          <button class="roxo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+  
+      <div class="shelf">
+        <img src="/assets/placeholder-2.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="preto"></button>
+          <button class="vermelho"></button>
+          <button class="quartzo"></button>
+          <button class="gelo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+  
+      <div class="shelf">
+        <img src="/assets/placeholder.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="bege"></button>
+          <button class="salmao"></button>
+          <button class="azul"></button>
+          <button class="roxo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+
+      <div class="shelf">
+        <img src="/assets/placeholder-2.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="preto"></button>
+          <button class="vermelho"></button>
+          <button class="quartzo"></button>
+          <button class="gelo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+
+      <div class="shelf">
+        <img src="/assets/placeholder.png" alt="Imagem do produto">
+        <div class="sku-selection">
+          <button class="bege"></button>
+          <button class="salmao"></button>
+          <button class="azul"></button>
+          <button class="roxo"></button>
+        </div>
+        <strong>R$ 500,00</strong>
+        <p>Faux Suede Mini Skirt</p>
+        <span>A faux suede mini skirt featuring exposed button-front 
+          closures and panel seam construction.</span>
+        <button>Adicionar</button>
+      </div>
+    </div>
+
+    <img src="/assets/arrow-left.png" class="js-carousel--simple-prev" aria-label="Anterior" />
+    <img src="/assets/arrow-right.png" class="js-carousel--simple-next" aria-label="Próximo" />
+  </main>
+
+  <section class="new-collection">
+    <div>
+      <h2>Lorem ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris 
+        posuere fusce proin mattis. Hendrerit cras ut nunc enim dictum. Mattis proin ut 
+        quis donec sed eget nulla. Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus 
+        condimentum velit pharetra. Amet luctus ut vulputate scelerisque placerat consequat. Neque arcu 
+        mi iaculis id. Vel vitae, pharetra, a nec tristique. Feugiat id tortor eu mauris pulvinar velit massa. 
+        Ut ornare augue eget convallis volutpat aliquet. Sed sed pellentesque porttitor phasellus donec 
+        condimentum sit sapien.
+      </p>
+    </div>
+    <img src="/assets/colecao.png" alt="">
+  </section>
+
+  <footer>
+    <section class="newsletter">
+      <h3>Receba Nossa Newsletter</h3>
+      <div>
+        <input type="text" placeholder="Digite seu e-mail">
+        <button>Enviar</button>
+      </div>
+    </section>
+
+    <section class="footer-middle">
+      <nav>
+        <strong>Informações</strong>
+        <li>Quem Somos</li>
+        <li>Prazo de Envio</li>
+        <li>Trocas e Devoluções</li>
+        <li>Promoções e Cupons</li>
+      </nav>
+
+      <nav>
+        <strong>Minha Conta</strong>
+        <li>Minha Conta</li>
+        <li>Meus Pedidos</li>
+        <li>Cadastre-se</li>
+      </nav>
+
+      <nav>
+        <strong>Onde nos Encontrar</strong>
+        <li>Lojas</li>
+        <li>Endereço</li>
+      </nav>
+    </div>
+    </section>
+
+    <section class="footer-bottom">
+      <div class="social-media">
+        <img src="/assets/facebook.png" alt="Logo Facebook">
+        <img src="/assets/linkedin.png" alt="Logo Linkedin">
+        <img src="/assets/instagram.png" alt="Logo Instagram">
+        <img src="/assets/youtube.png" alt="Logo Youtube">
+      </div>
+      
+      <div class="payment-methods">
+        <img src="/assets/visa.png" alt="Logo Visa">
+        <img src="/assets/mastercard.png" alt="Logo Mastercard">
+        <img src="/assets/visa.png" alt="Logo Visa">
+        <img src="/assets/mastercard.png" alt="Logo Mastercard">
+      </div>
+
+      <div class="copyright">
+        <p>
+          Powered by
+          <img src="/assets/vtex-logo.png" alt="Logo Vtex">
+        </p>
+        <p>
+          Developed by
+          <img src="/assets/maeztra-logo.png" alt="Logo Maeztra">
+        </p>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
