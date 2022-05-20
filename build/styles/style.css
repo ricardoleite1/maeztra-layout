@@ -700,13 +700,6 @@ footer .footer-bottom .copyright p {
     top: 138px;
   }
 
-  .shelves img.js-carousel--simple-prev {
-    display: none;
-  }
-  .shelves img.js-carousel--simple-next {
-    display: none;
-  }
-
   footer .footer-middle {
     flex-direction: column;
     justify-content: flex-start;
